@@ -1,0 +1,124 @@
+img{
+    width: 200px;
+}
+.header{
+    background-image: url("https://www.omaxeworldstreet.org/wp-content/uploads/2024/02/world-street-banner-1.jpg");
+    background-size:cover;
+    background-position:-50px -130px;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    text-shadow: 0 0 1px;
+    margin-bottom: -18.5px;
+    border-bottom: 0px;
+}
+.header-text{
+    margin-top: 0px;
+    background-color:#1E2D47;
+    color: #C9D7F3;
+    padding: 2px 10px;
+    border-radius: 7px;
+}
+.font-type{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    text-align: center;
+    margin: 5px 5px 0px 5px;
+    background:linear-gradient(#584A7D,#95A3BD);
+}
+#tagline{
+    margin-bottom: 5px;
+}
+#activities{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.features{
+    background-color: #A398C3;
+    margin-top: 0px;
+    padding:10px 0px;
+}
+.activity-img{
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.activity-name{
+    width:300px;
+    height:30px;
+}
+.activity-description{
+    width: 300px;
+    text-align: center;
+}
+#guide{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background:#584A7D;
+    width: 400px;
+    text-align: center;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 5px 5px 6px #1E2D47;
+}
+#guide-img{
+    width: 200px;
+    margin-right: 20px;
+}
+#guide-about{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#linkedin-link{
+    display: none;
+    color: #95A3BD;
+    font-weight: bold;
+    text-decoration: none;
+}
+#guide:hover #linkedin-link{
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: underline;
+}
+#nahar-booking{
+    display: none;
+    color: #584A7D;
+    font-weight: bold;
+}
+#surajkund-booking{
+    display: none;
+    color: #584A7D;
+    font-weight: bold;
+}
+#mangar-booking{
+    display: none;
+    color: #584A7D;
+    font-weight: bold;
+}
+#activity2:hover #nahar-booking{
+    display: inline;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#activity1:hover #surajkund-booking{
+    display: inline;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#activity3:hover #mangar-booking{
+    display: inline;
+    text-decoration: underline;
+    cursor: pointer;
+}
